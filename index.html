@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <title>repl.it</title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
+    <script src="script.js"></script>
+    
+ 
+  </head>
+  <body>
+      
+      <a-scene>
+     
+        <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="#008000" scale = "30 30 30"></a-plane>
+        <a-plane id="wall1" position="0 1.5 -15" color="#643200" scale = "30 3 30"></a-plane>
+        <a-plane id="wall2"position="15 1.5 0" rotation="0 -90 0" color="#643200" scale = "30 3 30"></a-plane>
+        <a-plane id="wall3" position="0 1.5 15" rotation="0 180 0" color="#643200" scale = "30 3 30"></a-plane>
+        <a-plane id="wall4" position="-15 1.5 0" rotation="0 90 0" color="#643200" scale = "30 3 30"></a-plane>
+        <a-sky src=""></a-sky>
+
+     </a-scene>
+  </body>
+</html>
