@@ -13,14 +13,22 @@
   <body>
       
       <a-scene>
-        <a-plane id="roof" position="0 3 0" rotation="-90 0 0" colour="white" scale="30 30 30"></a-plane>
-        <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="green" scale="30 30 30"></a-plane>
-        <a-plane id="wall1" position="0 1.5 -15" color="#44344F" scale = "30 3 30"></a-plane>
-        <a-plane id="wall2"position="15 1.5 0" rotation="0 -90 0" color="#44344F" scale="30 3 30"></a-plane>
-        <a-plane id="wall3" position="0 1.5 15" rotation="0 180 0" color="#44344F" scale="30 3 30"></a-plane>
-        <a-plane id="wall4" position="-15 1.5 0" rotation="0 90 0" color="#44344F" scale="30 3 30"></a-plane>
-        <a-sky src="green"></a-sky>
 
+        <a-plane id="roof" position="0 3 0" rotation="-90 0 0" colour="#44344F" side="double" scale="30 30 30"></a-plane>
+        <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="green" side="double" scale="30 30 30"></a-plane>
+        <a-plane id="wall1" side="double" position="0 1.5 -15" color="#44344F" scale = "30 10 30"></a-plane>
+        <a-plane id="wall2" side="double" position="15 1.5 0" rotation="0 -90 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-plane id="wall3" side="double" position="0 1.5 15" rotation="0 180 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-plane id="wall4" side="double" position="-15 1.5 0" rotation="0 90 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-gltf-model id="Podium" position="-7 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+        
+  <a-gltf-model id="Podium 1" position="-7 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+
+  <a-gltf-model id="Podium 2" position="14 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+
+  <a-gltf-model id="Podium 3" position="14 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+    
      </a-scene>
+
   </body>
 </html>
