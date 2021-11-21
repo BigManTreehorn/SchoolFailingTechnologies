@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+2<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-      <title>repl.it</title>
+      <title>2.8 Dtec Assesment</title>
      <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
     <script src="script.js"></script>
@@ -14,49 +14,150 @@
       
       <a-scene>
 
-        <a-plane id="roof" position="0 5.5 0" rotation="-90 0 0" colour="red" side="double" scale="30 30 30"></a-plane>
+        <a-plane id="roof" position="0 5.5 0" rotation="-90 0 0" src="Models/Factory floor.jpg" side="double" scale="30 30 30"></a-plane>
        
-        <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="green" side="double" scale="30 30 30"></a-plane>
+        <a-plane id="floor" position="0 0 0" rotation="-90 0 0" src="Models/Factory floor.jpg" side="double" scale="30 30 30"></a-plane>
       
-        <a-plane id="wall1" side="double" position="0 1.5 -15" color="#44344F" scale = "30 10 30"></a-plane>
+        <a-plane id="wall1" side="double" position="0 1.5 -15" src="Models/wall.jpg" repeat="4 4" scale="30 10 30"></a-plane>
       
-        <a-plane id="wall2" side="double" position="15 1.5 0" rotation="0 -90 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-plane id="wall2" side="double" position="15 1.5 0" rotation="0 -90 0" src="Models/wall.jpg" scale="30 10 30"></a-plane>
      
-        <a-plane id="wall3" side="double" position="0 1.5 15" rotation="0 180 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-plane id="wall3" side="double" position="0 1.5 15" rotation="0 180 0" src="Models/wall.jpg" scale="30 10 30"></a-plane>
       
-        <a-plane id="wall4" side="double" position="-15 1.5 0" rotation="0 90 0" color="#44344F" scale="30 10 30"></a-plane>
+        <a-plane id="wall4" side="double" position="-15 1.5 0" rotation="0 90 0" src="Models/wall.jpg" scale="30 10 30"></a-plane>
      
+
+
+
+
 
 
         <a-gltf-model id="Podium 0" position="-7 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
-       
+                 <a-gltf-model id="Motorbike 3"position="-3.337 0.517 10.632" rotation="0 104.855 0" scale="1.676 0.802 1.113" src="Models/scooter.glb"></a-gltf-model>
+
+
         <a-gltf-model id="Podium 0.1" position="-0 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>   
-      
+             <a-gltf-model id="Motorcycle 1" position="-10.199 0.829 3.378" rotation="0 15 0" scale="1 0.5 0.657" src="Models/scene (2).glb"></a-gltf-model>
+
+
         <a-gltf-model id="Podium 0.2" position="-7 0.250 -22" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+            <a-gltf-model id="Motorcycle 2" position="-10.737 0.523 10.425" rotation="0 15 0" scale="0.03 0.03 0.03" src="Models/scene (4).glb"></a-gltf-model>
+
+       
+      
 
 
-
+       
         <a-gltf-model id="Podium 1" position="-7 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
-       
-        <a-gltf-model id="Podium 1.1" position="-7 0.250 -29" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
-       
-        <a-gltf-model id="Podium 1.2" position="-0 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+             <a-gltf-model id="Utility Vehicles 1" position="-10.403 2.023 -10.636" rotation="0 15 0" scale="1 1 1" src="Models/police car.glb"></a-gltf-model>
 
+
+
+
+
+
+        <a-gltf-model id="Podium 1.1" position="-7 0.250 -29" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+             <a-gltf-model id="Utility Vehicles 2" position="-10.675 0.501 -3.288" rotation="0 168.012 0" scale="0.025 0.025 0.025" src="Models/ambulance.glb"></a-gltf-model>
+
+       
+
+
+
+
+
+
+        <a-gltf-model id="Podium 1.2" position="-0 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+             <a-gltf-model id="Utility Vehicles 3" position="-3.577 1.014 -10.099" rotation="0 62.283 0" scale="0.010 0.010 0.010" src="Models/helicopter.glb"></a-gltf-model>
+
+
+
+
+
+
+
+
+
+'
 
 
         <a-gltf-model id="Podium 2" position="14 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>  
-       
+             <a-gltf-model id="Military Vehicles 1" position="10.536 0.528 3.660" rotation="0 15 0" scale="0.595 0.5 0.440" src="Models/army hummer.glb"></a-gltf-model> 
+
+
         <a-gltf-model id="Podium 2.1" position="14 0.250 -22" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+             <a-gltf-model id="Military Vehicles 2" position="4.430 1.508 10.516" rotation="0 15 0" scale="0.005 0.005 0.005" src="Models/willys jeep.glb"></a-gltf-model>
        
+
         <a-gltf-model id="Podium 2.2" position="7 0.250 -15" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
-      
+             <a-gltf-model id="Military Vehicles 3" position="10.457 0.539 10.540" rotation="0 126.973 0" scale="0.2 0.2 0.2" src="Models/tank.glb"></a-gltf-model>
+
+
+
 
 
         <a-gltf-model id="Podium 3" position="14 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
-       
+             <a-gltf-model id="SUV 1" position="9.942 0.450 -3.024" rotation="0 53.026 0" scale="-0.23 0.240 0.197" src="Models/scene (1).glb"></a-gltf-model>
+
+
         <a-gltf-model id="Podium 3.1" position="14 0.250 -29" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model> 
-       
+             <a-gltf-model id="Sedan 1" position="3.493 0.507 -10.396" rotation="0 15 0" scale="0.02 0.02 0.02" src="Models/grey sedan.glb"></a-gltf-model>
+
+
         <a-gltf-model id="Podium 3.2" position="7 0.250 -36" rotation="0 15 0" scale="2 0.5 2" src="Models/podium.glb"></a-gltf-model>
+             <a-gltf-model id="sedan 2" position="10.805 0.558 -10.297" rotation="0 15 0" scale="0.980 0.890 0.960" src="Models/blue sedan.glb"></a-gltf-model>
+
+
+
+
+
+
+         <a-plane id="middlewall1" src="Models/wall.jpg" position="0 3 10" rotation="0 90 0" color="#44344F" side="double" scale="10 10 30"></a-plane>
+         <a-plane id="middlewall2" src="Models/wall.jpg" position="0 3 -10" rotation="0 90 0" color="#44344F" side="double" scale="10 10 30"></a-plane>
+         <a-plane id="middlewall3" src="Models/wall.jpg" position="10 3 0" rotation="0 180 0" color="#44344F" side="double" scale="10 10 30"></a-plane>
+         <a-plane id="middlewall4" src="Models/wall.jpg" position="-10 3 0" rotation="0 180 0" color="#44344F" side="double" scale="10 10 30"></a-plane>
+
+
+         <a-plane position="-3 2 -3" rotation="1 40 0" scale="4 4.5 1" color="#faaf52" side="double"></a-plane>
+         <a-text value="Utility Vehicles" position="-3 2 -3" rotation="1 40 0" side="double" width="4" color="black" ></a-text>
+  
+         <a-plane position="-3.5 2 3.5" rotation="1 135 0"  side="double" scale="4 4.5 1" color="#faaf52"></a-plane>
+         <a-text value="Motorcycles" position="-3.5 2 3.5" rotation="1.5 135 0" side="double" width="4" color="black" ></a-text>   
+
+         <a-plane position="3 2 -3" rotation="1 -40 0" side="double" scale="4 4.5 1" color="#faaf52" ></a-plane>
+         <a-text value="Civilian Vehicles" position="3 2 -3" rotation="1 -40 0" side="double" width="4" color="black" ></a-text>   
+
+         <a-plane position="3 2 3" rotation="1 -135 0" side="double" scale="4 4.5 1" color="#faaf52" ></a-plane>
+         <a-text value="Military Vehicles" position="3 2 3" rotation="1 -135 0" side="double" width="4" color="black" ></a-text>   
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
      </a-scene>
